@@ -13,6 +13,12 @@
 1. [STOCK MARKET DIRECTION PREDICTION USING DATA MINING CLASSIFICATION ](http://www.arpnjournals.com/jeas/research_papers/rp_2015/jeas_0215_1594.pdf)
 1. [Machine-learning classification techniques for the analysis and prediction of high-frequency stock direction](https://ir.uiowa.edu/cgi/viewcontent.cgi?article=5248&context=etd)
 1. [Forecasting the direction of stock market index movement using three data mining techniques: the case of Tehran Stock Exchange (https://pdfs.semanticscholar.org/2fe9/cd2e7e9a4c859d2ffbf39e1a2c54cb874f3c.pdf)
+1. [Predicting Stocks with Machine Learning](https://www.duo.uio.no/bitstream/handle/10852/51275/PredictingStocksWithMachineLearning.pdf?sequence=1&isAllowed=y)
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
 1. []()
 
 https://www.datacamp.com/community/tutorials/finance-python-trading
