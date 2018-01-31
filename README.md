@@ -14,12 +14,18 @@
 1. [Machine-learning classification techniques for the analysis and prediction of high-frequency stock direction](https://ir.uiowa.edu/cgi/viewcontent.cgi?article=5248&context=etd)
 1. [Forecasting the direction of stock market index movement using three data mining techniques: the case of Tehran Stock Exchange (https://pdfs.semanticscholar.org/2fe9/cd2e7e9a4c859d2ffbf39e1a2c54cb874f3c.pdf)
 1. [Predicting Stocks with Machine Learning](https://www.duo.uio.no/bitstream/handle/10852/51275/PredictingStocksWithMachineLearning.pdf?sequence=1&isAllowed=y)
+1. [Artificial neural networks for financial time series prediction and portfolio optimization](https://www.soderbergpartners.se/globalassets/sv/om-oss/karriar/arets-finansuppsats/bjorklund-s.--uhlin-t.-artificial-neural-networks-for-financial-time-series-prediction-and-portfolio-optimization.pdf)
+1. [Predictions in Financial Time Series Data](http://www.dataminingmasters.com/uploads/studentProjects/TimeSeriesData.pdf)
+1. [Improving Long Term Stock Market Prediction with Text Analysis](https://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=6267&context=etd)
+1. [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://arxiv.org/pdf/1703.07015.pdf)
+1. [On stock return prediction with LSTM networks](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8911069&fileOId=8911070)
 1. []()
 1. []()
 1. []()
 1. []()
 1. []()
 1. []()
+
 
 https://www.datacamp.com/community/tutorials/finance-python-trading
 
