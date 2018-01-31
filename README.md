@@ -10,7 +10,7 @@
 1. [Forecasting the Stock Market - A Neural Network Approach](http://mdh.diva-portal.org/smash/get/diva2:201587/FULLTEXT01.pdf) Nadersson M. & Palm J., 2009.
 1. [Classification-based Financial Markets Prediction using Deep Neural Networks](https://arxiv.org/pdf/1603.08604.pdf) Klabjan D., Talk https://www.youtube.com/watch?v=Kzz2-wAEK7A
 1. [Stock Market Index Data and indicators for Day Trading as a Binary Classification problem](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5219605/) A lot of technical indicators and a useful S&P500 dataset
-1. []()
+1. [STOCK MARKET DIRECTION PREDICTION USING DATA MINING CLASSIFICATION ](http://www.arpnjournals.com/jeas/research_papers/rp_2015/jeas_0215_1594.pdf)
 1. [Machine-learning classification techniques for the analysis and prediction of high-frequency stock direction](https://ir.uiowa.edu/cgi/viewcontent.cgi?article=5248&context=etd)
 1. []()
 1. []()
