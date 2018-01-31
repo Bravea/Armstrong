@@ -19,7 +19,7 @@
 1. [Improving Long Term Stock Market Prediction with Text Analysis](https://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=6267&context=etd)
 1. [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://arxiv.org/pdf/1703.07015.pdf)
 1. [On stock return prediction with LSTM networks](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8911069&fileOId=8911070)
-1. []()
+1. [Artificial Intelligence in Finance: Forecasting stock market returs using neural networks](https://helda.helsinki.fi/dhanken/bitstream/handle/123456789/170154/zavadskaya.pdf?sequence=1)
 1. []()
 1. []()
 1. []()
