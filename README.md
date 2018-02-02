@@ -20,12 +20,13 @@
 1. [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://arxiv.org/pdf/1703.07015.pdf)
 1. [On stock return prediction with LSTM networks](http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8911069&fileOId=8911070)
 1. [Artificial Intelligence in Finance: Forecasting stock market returs using neural networks](https://helda.helsinki.fi/dhanken/bitstream/handle/123456789/170154/zavadskaya.pdf?sequence=1)
+1. [Predicting stock and stock price index movement using Trend Deterministic Data Preparation and machine learning techniques, 2015](https://github.com/fzn0728/HMM/blob/master/Desktop/TeamCo/machine%20learning%20prediction/paper/Predicting%20stock%20and%20stock%20price%20index%20movement%20using%20Trend%20Deterministic%20Data%20Preparation%20and%20machine%20learning%20techniques.pdf)
+1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques](https://mafiadoc.com/a-hybrid-stock-trading-framework-integrating-technical-analysis-with-_599ecb7a1723dd0c4031e793.html)
+1. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf)
 1. []()
 1. []()
 1. []()
 1. []()
-1. []()
-
 
 https://www.datacamp.com/community/tutorials/finance-python-trading
 
