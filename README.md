@@ -23,11 +23,13 @@
 1. [Predicting stock and stock price index movement using Trend Deterministic Data Preparation and machine learning techniques, 2015](https://github.com/fzn0728/HMM/blob/master/Desktop/TeamCo/machine%20learning%20prediction/paper/Predicting%20stock%20and%20stock%20price%20index%20movement%20using%20Trend%20Deterministic%20Data%20Preparation%20and%20machine%20learning%20techniques.pdf)
 1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques](https://mafiadoc.com/a-hybrid-stock-trading-framework-integrating-technical-analysis-with-_599ecb7a1723dd0c4031e793.html)
 1. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf)
+1. [Forecasting the Equity Risk Premium: The Role of Technical Indicators](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4062&context=lkcsb_research) Neely, Christopher J.; Rapach, David E.; TU, Jun; and Zhou, Guofu. (2014). Management Science. 60, (7), 1772-1791. Research Collection Lee Kong Chian School Of Business.
 1. []()
 1. []()
 1. []()
 1. []()
-
+1. []()
+1. []()
 https://www.datacamp.com/community/tutorials/finance-python-trading
 
 [1] http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf
