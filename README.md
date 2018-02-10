@@ -28,7 +28,7 @@
 1. [Forecasting the Equity Risk Premium: The Role of Technical Indicators](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4062&context=lkcsb_research) Neely, Christopher J.; Rapach, David E.; TU, Jun; and Zhou, Guofu. (2014). Management Science. 60, (7), 1772-1791. Research Collection Lee Kong Chian School Of Business.
 1. [A Study on Technical Indicators in Stock Price Movement Prediction Using Decision Tree Algorithms](http://www.ajer.org/papers/v5(12)/Z05120207212.pdf)
 1. [Machine Learning for Technical Stock Analysis] (https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2012/rapporter12/cedervall_fredrik_12088.pdf)
-1. []()
+1. Van den Poel, D., Chesterman, C., Koppen M., Ballings, M. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf) 
 1. []()
 1. []()
 1. []()
