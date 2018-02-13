@@ -5,6 +5,25 @@
 
 ## Financial Timeseries
 
+## Indicators
+
+### Stochastic %K
+```python
+def stochasticK(close, low, high, n):
+  for i in range(n)
+    close[]
+  
+return K
+
+
+```
+for n in large sample_length
+
+%K = 100 x (close(_i_)-low(_n_))/(high(_n_)-low(_n_))
+
+low(_n_) is the lowest low and high(_n_) is the highest high value in last _n_ samples. Sample size _n_ is usually 14.
+
+
 ## References
 1. [Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873195/) Qiu M. & Song Y., 2016.
 1. [Predictable Patterns in Stock Returns](http://trend.technicalanalysis.org.uk/HeHo98b.pdf) Hellström T. & Holmström K., 1998.
