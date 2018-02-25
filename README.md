@@ -48,9 +48,9 @@ low(_n_) is the lowest low and high(_n_) is the highest high value in last _n_ s
 1. [A Study on Technical Indicators in Stock Price Movement Prediction Using Decision Tree Algorithms](http://www.ajer.org/papers/v5(12)/Z05120207212.pdf)
 1. [Machine Learning for Technical Stock Analysis] (https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2012/rapporter12/cedervall_fredrik_12088.pdf)
 1. Van den Poel, D., Chesterman, C., Koppen M., Ballings, M. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf) 
+1. [](https://web.wpi.edu/Pubs/E-project/Available/E-project-042816-130221/unrestricted/MQP_-_Final_Draft.pdf)
 1. []()
-1. []()
-1. []()
-https://www.datacamp.com/community/tutorials/finance-python-trading
+1. [Using Artificial Neural Networks and Sentiment Analysis to Predict Upward
+Movements in Stock Price](https://www.datacamp.com/community/tutorials/finance-python-trading)
 
 [1] http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf
