@@ -25,6 +25,11 @@ low(_n_) is the lowest low and high(_n_) is the highest high value in last _n_ s
 
 
 ## References
+
+1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques] http://www.sciencedirect.com/science/article/pii/S2405918815300179
+Dash R. and Dash P.K. 2016,
+
+
 1. [Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873195/) Qiu M. & Song Y., 2016.
 1. [Predictable Patterns in Stock Returns](http://trend.technicalanalysis.org.uk/HeHo98b.pdf) Hellström T. & Holmström K., 1998.
 1. [A Random Walk through the Stock Market](http://www.e-m-h.org/Hell98.pdf) Hellström T., 1998.
