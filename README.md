@@ -5,6 +5,16 @@
 
 ## Financial Timeseries
 
+## Target prediction alternatives
+
+### Classification
+
+Up, Down
+Up, Down
+
+### Regression
+
+
 ## Indicators
 
 ### Stochastic %K
