@@ -27,7 +27,7 @@ low(_n_) is the lowest low and high(_n_) is the highest high value in last _n_ s
 ## References
 
 1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques](http://www.sciencedirect.com/science/article/pii/S2405918815300179) Dash R. and Dash P.K., 2016.
-1. [A dynamic threshold decision system for stock trading signal detection (https://www.sciencedirect.com/science/article/pii/S1568494611000937) P.C. Chang, T.W. Liao, J.J. Lin, C.Y. Fan, 2011.
+1. [A dynamic threshold decision system for stock trading signal detection] (https://www.sciencedirect.com/science/article/pii/S1568494611000937) P.C. Chang, T.W. Liao, J.J. Lin, C.Y. Fan, 2011.
 1. [Predicting Stock Market Index Trading Signals Using Neural Networks](https://pdfs.semanticscholar.org/0604/4dd324e193bbc0e2fd9ddf8edfb21bb4a932.pdf) C. D. Tilakaratne, S. A. Morris, M. A. Mammadov, C. P. Hurst, 2007. 
 1. [Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873195/) Qiu M. & Song Y., 2016.
 1. [Predictable Patterns in Stock Returns](http://trend.technicalanalysis.org.uk/HeHo98b.pdf) Hellström T. & Holmström K., 1998.
