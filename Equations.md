@@ -1,12 +1,11 @@
 ## Trend 
+A Simple Moving Average (SMA) are used over the last 15 time steps (SMA15) for classifying the stock market movement as upward (Uptrend) or downward (downtrend) as follows:
+* Trend = 'up': If closing price value is greater than SMA15 and SMA15 is rising for the last 5 days then there is an Uptrend, i.e. Trend = 'up'
+Else if closing price value is lower than SMA15 and SMA15 is falling for the last 5 days then trend is Downtrend, i.e. Trend = 'down'
+Else there is no trend, i.e. Trend = 'none' 
 
 ## Trading Signal
-```python
-
-If (closing price value is greater than MA15 and MA15 is rising for the last 5 days):
-  Uptrend, i.e. Trend = 1
-Else if closing price value is lower than MA15 and MA15 is falling for the last 5 days then trend is Downtrend, i.e. Trend = -1
-Else there is no trend, i.e. Trend = 0; 
+A Trading Signal (TS) is 
 
 # close: close price at time t
 # trend: trend  
@@ -28,6 +27,6 @@ Trend(t) = up if
 
 (close - closeMin) / )closeMax – closeMin) × 0.5
 
-
+```python
 ```
 ### NEXT
