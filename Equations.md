@@ -8,3 +8,6 @@
 
 (closet - closeMin) / )closeMax – closeMin) × 0.5
 
+
+```
+### NEXT
