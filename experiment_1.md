@@ -10,7 +10,7 @@ Experimental settings that are constant throughout the experiment:
 * Architecture: Feedforward
 
 ### Variations
-* # of input nodes
+* `#` of input nodes
 * type of technical indicators 
 * # of layers
 * # nodes in each layer 
