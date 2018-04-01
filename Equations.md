@@ -48,12 +48,21 @@ Where:
 
 ```python
 ```
+## Technical Indicators
+The input to the NN are the following technical indicators:
+* SMA
+* MACD
+* K%
+* D%
+* RSI
+* R%
+
 ### Simple Moving Average (SMA)
 SMA(n) = (close(t) + close(t-1) + close(t-2) + . . . close(t-n)) / n
 
 Where:
-- n is the number of periods in the SMA
-- close(t) is the closing price being averaged
+* n is the number of periods in the SMA
+* close(t) is the closing price
 
 ### Moving Average Convergence and Divergence (MACD): 
 The MACD shows the relationship between two exponential moving averages of prices.
@@ -62,8 +71,8 @@ MACD = EMA12 - EMA36
 
 EMA(t) = (close(t)-EMA(t-1)) x m + EMA(t-1)
 
-Where:
-- m = 2 / (no of days to be considered + 1)
+where:
+* m = 2 / (no of days to be considered + 1)
 
 ### Stochastic KD
 Stochastic provides a mean of measuring price movement velocity. K% measures the relative position of current closing price in a certain time range, whereas D% specifies the three day moving average of K%.
@@ -73,8 +82,9 @@ K%(t) = [ close(t) - L(i) ] / [ (H(i) - L(i)] x 100
 D%(t) = [K%(t) + K%(t-1) + K%(t-2)] / 3
 
 where:
-  L(i) is the lowest price of the last i days.
-  H(i) is the highest price of the last i days.
+* close(t) is the closing price
+* L(i) is the lowest price of the last i days.
+* H(i) is the highest price of the last i days.
 
 ### Relative Strength Index (RSI):
 RSI is a momentum indicator calculated as follows:
@@ -82,13 +92,17 @@ RSI is a momentum indicator calculated as follows:
 RSI(t) = 100 - 100 / (1+RS(t))
 
 where
-  RS(t) = Average of t days where closing price was up / Average of t days where closing price was down 
+* RS(t) = Average of t days where closing price was up / Average of t days where closing price was down 
 
 ### Larry William's R%:
 William's R% is a stochastic oscillator, calculated as follows:
 
 R%(t) = [ H(i) - close(t) ] / [ H(i) - L(i)] x 100
 
+where:
+* close(t) is the closing price
+* L(i) is the lowest price of the last i days.
+* H(i) is the highest price of the last i days.
 
 ## Neural Network
 
