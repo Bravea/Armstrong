@@ -73,7 +73,9 @@ K%(t) = [ close(t) - L(i) ] / [ (H(i) - L(i)] x 100
 D%(t) = [K%(t) + K%(t-1) + K%(t-2)] / 3
 
 where:
+
 L(i) is the lowest price of the last i days.
+
 H(i) is the highest price of the last i days.
 
 ### Relative Strength Index (RSI):
