@@ -1,9 +1,14 @@
-1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques](https://www.sciencedirect.com/science/article/pii/S2405918815300179)
+[A hybrid stock trading framework integrating technical analysis with machine learning techniques](https://www.sciencedirect.com/science/article/pii/S2405918815300179)
+
+ANN is trained to predict a Trading Signal, i.e. when to buy an sell.
+Input to the ANN is 
+
 ## Trend 
 A Simple Moving Average (SMA) are used over the last 15 time steps (SMA15) for classifying the stock market movement as upward (Uptrend) or downward (downtrend) as follows:
 * Trend = 'up': If closing price > SMA15 and SMA15 is rising for the last 5 days there is an Uptrend.
 * Trend = 'down': if closing price < SMA15 and SMA15 is falling for the last 5 days there is a Downtrend.
 * Trend = 'no': Otherwise there is no trend.
+The Trend is only used in order to be able to calculate the Trading Signal (TS).
 
 ## Trading Signal
 A Trading Signal (TS) is calculated. This is used as target output to the ANN. Depending on if the last occurance of the Trend was 'up' or 'down' different calculations are used. Instances of 'no'-trend are ignored, i.e.:
@@ -43,4 +48,17 @@ Where:
 
 ```python
 ```
-### NEXT
+
+## Trading decision
+Determine predicted trend (Trendpred) based on predicted trading signal (TSpred):
+* Trendpred = 'up': if TSpred > 0.5.
+* Trendpred = 'down': if TSpred <= 0.5.
+
+Dtermine Buy, hold or Sell according to:
+* BUY: if next day trend = 'up'
+* SELL: if next day trend = 'down'
+* HOLD: if BUY or SELL decisiom exist
+
+
+
+
