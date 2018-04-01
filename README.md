@@ -35,6 +35,7 @@ low(_n_) is the lowest low and high(_n_) is the highest high value in last _n_ s
 
 
 ## References
+1. [Short-Term Forecasting of Financial Time Series with Deep Neural Networks](http://www.bdigital.unal.edu.co/54538/1/1014262698.pdf)
 1. [Using Artificial Neural Networks and Sentiment Analysis to Predict Upward Movements in Stock Price](https://web.wpi.edu/Pubs/E-project/Available/E-project-042816-130221/unrestricted/MQP_-_Final_Draft.pdf)
 1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques](http://www.sciencedirect.com/science/article/pii/S2405918815300179) Dash R. and Dash P.K., 2016.
 1. [A dynamic threshold decision system for stock trading signal detection](https://www.sciencedirect.com/science/article/pii/S1568494611000937) P.C. Chang, T.W. Liao, J.J. Lin, C.Y. Fan, 2011.
