@@ -44,7 +44,7 @@ Cha S-M. & Chan L., 2000.
 1. [Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873195/) Qiu M. & Song Y., 2016.
 1. [Predictable Patterns in Stock Returns](http://trend.technicalanalysis.org.uk/HeHo98b.pdf) Hellström T. & Holmström K., 1998.
 1. [A Random Walk through the Stock Market](http://www.e-m-h.org/Hell98.pdf) Hellström T., 1998.
-
+1.[DESIGN AND IMPLEMENTATION OF AUTOMATED TRADING SYSTEMS ](https://diplomovka.sme.sk/zdroj/3633.pdf) M. Kecera, 2010.
 
 1. [Forecasting the Stock Market - A Neural Network Approach](http://mdh.diva-portal.org/smash/get/diva2:201587/FULLTEXT01.pdf) Nadersson M. & Palm J., 2009.
 1. [Classification-based Financial Markets Prediction using Deep Neural Networks](https://arxiv.org/pdf/1603.08604.pdf) Dixon M., Klabjan D. and Bang J. H., 2016. Talk https://www.youtube.com/watch?v=Kzz2-wAEK7A
