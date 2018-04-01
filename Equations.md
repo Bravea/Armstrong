@@ -8,6 +8,7 @@ A Simple Moving Average (SMA) are used over the last 15 time steps (SMA15) for c
 A Trading Signal (TS) is calculated depending on if the last occurance of the Trend was 'up' or 'down'. Instances of 'no'-trend are ignored.
 
 TS = TSup: if last occurance of the Trend = 'up'
+
 TS = TSdown: if last occurance of the Trend = 'down'
 
 TSup = (close(t) - closeMin) / (closeMax – closeMin) × 0.5 + 0.5
