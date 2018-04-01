@@ -10,12 +10,12 @@ Experimental settings that are constant throughout the experiment:
 * Architecture: Feedforward
 
 ### Variations
-* `#` of input nodes
+* nr of input nodes
 * type of technical indicators 
-* # of layers
-* # nodes in each layer 
+* nr of layers
+* nr nodes in each layer 
 * dropout setting
-* Threshold values for output classes
+* threshold values for output classes
 * more...
 
 ### Results
@@ -23,5 +23,15 @@ Experimental settings that are constant throughout the experiment:
 Mean Average Percent Error (MAPE):
 
 #### Backtest
-Buy&Hold
-Naive
+Backtest on Out-Of-Sample data only. 
+
+Performance metrics are:
+* Total Returns
+* Average Annual Return
+* Maximum drawdown
+* Sharpe ratio
+* Sortino ratio
+
+Comparision Strategies:
+* Buy&Hold
+* Naive
