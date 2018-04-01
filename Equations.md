@@ -7,15 +7,16 @@ A Simple Moving Average (SMA) are used over the last 15 time steps (SMA15) for c
 ## Trading Signal
 A Trading Signal (TS) is calculated depending on if the last occurance of the Trend was 'up' or 'down'. Instances of 'no'-trend are ignored.
 
-TS = TSup: if last occurance of the Trend = 'up'
+* TS = TSup: if last occurance of the Trend = 'up'
+* TS = TSdown: if last occurance of the Trend = 'down'
 
-TS = TSdown: if last occurance of the Trend = 'down'
+TSup and TSdown are given by:
+* TSup = (close(t) - closeMin) / (closeMax – closeMin) × 0.5 + 0.5
+* TSdown = (close(t) - closeMin) / (closeMax – closeMin) × 0.5
 
-TSup = (close(t) - closeMin) / (closeMax – closeMin) × 0.5 + 0.5
-TSdown = (close(t) - closeMin) / (closeMax – closeMin) × 0.5
-
-closeMin = Min(close(t), close(t+1), close(t+2))  
-closeMax = Max(close(t), close(t+1), close(t+2))
+Where: 
+* closeMin = Min(close(t), close(t+1), close(t+2))  
+* closeMax = Max(close(t), close(t+1), close(t+2))
 
 **close**|**closeMin**|**closeMax**|**TSup**|**TSdown**|**Trend**|**TS**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
@@ -25,7 +26,7 @@ closeMax = Max(close(t), close(t+1), close(t+2))
 1941.28|1927.11|1950.82|0.7988|0.2988|no|0.2988
 1927.11|1927.11|1964.58|0.5|0|no|0
 1950.82|1950.82|1964.58|0.5|0|no|0
-1964.58|1961.63|1985.05|0.563|0.063|no|0.0629
+1964.58|1961.63|1985.05|0.563|0.0629|no|0.0629
 1961.63|1961.63|1985.05|0.5|0|no|0
 1985.05|1982.3|1994.65|0.6113|0.1113|up|0.6113
 1982.3|1982.3|2039.68|0.5|0|up|0.5
