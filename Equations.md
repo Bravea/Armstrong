@@ -5,7 +5,7 @@ A Simple Moving Average (SMA) are used over the last 15 time steps (SMA15) for c
 * Trend = 'no': Otherwise there is no trend.
 
 ## Trading Signal
-A Trading Signal (TS) is calculated. Depending on if the last occurance of the Trend was 'up' or 'down' different calculations are used. Instances of 'no'-trend are ignored, i.e.:
+A Trading Signal (TS) is calculated. This is used as target output to the ANN. Depending on if the last occurance of the Trend was 'up' or 'down' different calculations are used. Instances of 'no'-trend are ignored, i.e.:
 * TS = TSup: if last occurance of the Trend was 'up'
 * TS = TSdown: if last occurance of the Trend was 'down'
 
@@ -39,16 +39,6 @@ Where:
 2060.31|2026.14|2060.31|1|0.5|no|1
 2059.82|2026.14|2059.82|1|0.5|no|1
 
-
-
-# close: close price at time t
-# trend: trend  
-# sma15: Simple Moving Average at time t over 15 last close prices
-
-
-(close - closeMin) / (closeMax – closeMin) × 0.5 + 0.5
-
-(close - closeMin) / )closeMax – closeMin) × 0.5
 
 ```python
 ```
