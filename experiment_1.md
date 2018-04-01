@@ -30,6 +30,8 @@ Performance metrics are:
 * Average Annual Return
 * Maximum drawdown
 * Sharpe ratio
+ sharpe = (returns/std)*sqrt(365.25)
+ std = std_dev(returns) 
 * Sortino ratio
 
 Comparision Strategies:
