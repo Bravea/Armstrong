@@ -52,8 +52,8 @@ Where:
 SMA(n) = (close(t) + close(t-1) + close(t-2) + . . . close(t-n)) / n
 
 Where:
-  n is the number of periods in the SMA
-  close(t) is the closing price being averaged
+- n is the number of periods in the SMA
+- close(t) is the closing price being averaged
 
 ### Moving Average Convergence and Divergence (MACD): 
 The MACD shows the relationship between two exponential moving averages of prices.
@@ -63,7 +63,7 @@ MACD = EMA12 - EMA36
 EMA(t) = (close(t)-EMA(t-1)) x m + EMA(t-1)
 
 Where:
-  m = 2 / (no of days to be considered + 1)
+- m = 2 / (no of days to be considered + 1)
 
 ### Stochastic KD
 Stochastic provides a mean of measuring price movement velocity. K% measures the relative position of current closing price in a certain time range, whereas D% specifies the three day moving average of K%.
