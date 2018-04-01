@@ -1,3 +1,10 @@
 ## Trading Signal
 ```python
-def tradingsignal(close):
+# close: close price 
+# trend: trend  
+
+
+(closet - closeMin) / (closeMax – closeMin) × 0.5 + 0.5
+
+(closet - closeMin) / )closeMax – closeMin) × 0.5
+
