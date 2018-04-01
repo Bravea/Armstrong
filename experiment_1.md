@@ -32,7 +32,7 @@ Performance metrics are:
 * Sharpe ratio
  sharpe = (returns/std)*sqrt(365.25)
  std = std_dev(returns) 
-* Sortino ratio
+* [Sortino ratio](https://github.com/PacktPublishing/PythonDataAnalysisCookbook/blob/master/Chapter%207/calmar_sortino.ipynb)
 
 Comparision Strategies:
 * Buy&Hold
