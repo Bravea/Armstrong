@@ -59,6 +59,7 @@ close(t) is the closing price being averaged
 The MACD shows the relationship between two exponential moving averages of prices.
 
 MACD = EMA12 - EMA36
+
 EMA(t) = (close(t)-EMA(t-1)) x m + EMA(t-1)
 
 Where:
