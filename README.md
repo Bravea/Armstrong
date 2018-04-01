@@ -3,45 +3,15 @@
 “Prediction is very difficult, especially if it’s about the future.”
 – Nils Bohr
 
+# Experiement 1
+Architecture: Feedforward
+Input: Technical Indicators
+Task type: Classification
+Output: []
+
+
 ## Financial Timeseries
 
-## Target prediction alternatives
-
-Problems are stated as either **classification** or **regression**.
-
-### Classification
-Price direction, Trend, Trading decision. 
-
-Price direction and Trend
-* [up, down]
-* [up, nochange , down]
-* [big up, up, nochange , down, big down]
-
-Trading decision
-* As above but replace up->buy, nochange->hold, down->sell
-
-### Regression
-Price, Trend, Trading signal
-
-
-
-## Indicators
-
-### Stochastic %K
-```python
-def stochasticK(close, low, high, n):
-  for i in range(n)
-    close[]
-  
-return K
-
-
-```
-for n in large sample_length
-
-%K = 100 x (close(_i_)-low(_n_))/(high(_n_)-low(_n_))
-
-low(_n_) is the lowest low and high(_n_) is the highest high value in last _n_ samples. Sample size _n_ is usually 14.
 
 
 ## References
