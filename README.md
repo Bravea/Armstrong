@@ -7,12 +7,22 @@
 
 ## Target prediction alternatives
 
-### Classification
+Problems are stated as either **classification** or **regression**.
 
-Up, Down
-Up, Down
+### Classification
+Price direction, Trend, Trading decision. 
+
+Price direction and Trend
+* [up, down]
+* [up, nochange , down]
+* [big up, up, nochange , down, big down]
+
+Trading decision
+* As above but replace up->buy, nochange->hold, down->sell
 
 ### Regression
+Price, Trend, Trading signal
+
 
 
 ## Indicators
