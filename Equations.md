@@ -1,3 +1,4 @@
+1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques](https://www.sciencedirect.com/science/article/pii/S2405918815300179)
 ## Trend 
 A Simple Moving Average (SMA) are used over the last 15 time steps (SMA15) for classifying the stock market movement as upward (Uptrend) or downward (downtrend) as follows:
 * Trend = 'up': If closing price > SMA15 and SMA15 is rising for the last 5 days there is an Uptrend.
