@@ -106,7 +106,10 @@ where:
 
 ## Neural Network
 
-
+Model:
+* input i 6 technical indicators.
+* output is one (1) node.
+* training is of type regression.
 
 ## Trading decision
 Determine predicted trend (Trendpred) based on predicted trading signal (TSpred):
