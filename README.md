@@ -3,6 +3,8 @@
 “Prediction is very difficult, especially if it’s about the future.”
 – Nils Bohr
 
+[Experiement 1](experiments/experiment_1.md). 
+
 # Experiement 1
 Architecture: Feedforward
 Input: Technical Indicators
