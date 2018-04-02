@@ -8,7 +8,7 @@ Experiments:
 * [Experiement 3](experiments/experiment_3.md). 
 
 ## References
-1. [A neural network with a case based dynamic window for stock trading prediction](https://pdfs.semanticscholar.org/22d6/4988e55f8c2721132fa9712c3cad1181ad2b.pdf) Chang et al. 2009.
+1. [A neural network with a case based dynamic window for stock trading prediction](https://pdfs.semanticscholar.org/22d6/4988e55f8c2721132fa9712c3cad1181ad2b.pdf) P. C. Chang et al., 2009.
 1. [Short-Term Forecasting of Financial Time Series with Deep Neural Networks](http://www.bdigital.unal.edu.co/54538/1/1014262698.pdf)
 1. [Using Artificial Neural Networks and Sentiment Analysis to Predict Upward Movements in Stock Price](https://web.wpi.edu/Pubs/E-project/Available/E-project-042816-130221/unrestricted/MQP_-_Final_Draft.pdf)
 1. [A hybrid stock trading framework integrating technical analysis with machine learning techniques](http://www.sciencedirect.com/science/article/pii/S2405918815300179) Dash R. and Dash P.K., 2016.
