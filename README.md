@@ -8,6 +8,7 @@ Experiments:
 * [Experiement 3](experiments/experiment_3.md). 
 
 ## References
+1. [Trend Following Algorithms for Technical Trading in Stock Market](https://pdfs.semanticscholar.org/02b1/35e37e92ff8250fb6fe4ee037ee04a68d875.pdf)
 1. [Forecasting for the Generation of Trading Signals in Financial Markets](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.473.6610&rep=rep1&type=pdf) KIN LAM1 AND KING CHUNG LAM, 2000.
 1. [A neural network with a case based dynamic window for stock trading prediction](https://pdfs.semanticscholar.org/22d6/4988e55f8c2721132fa9712c3cad1181ad2b.pdf) P. C. Chang et al., 2009.
 1. [Short-Term Forecasting of Financial Time Series with Deep Neural Networks](http://www.bdigital.unal.edu.co/54538/1/1014262698.pdf)
