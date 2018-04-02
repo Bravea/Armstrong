@@ -2,10 +2,10 @@
 
 “Prediction is very difficult, especially if it’s about the future.”
 – Nils Bohr
-
-[Experiement 1](experiments/experiment_1.md). 
-[Experiement 2](experiments/experiment_2.md). 
-[Experiement 3](experiments/experiment_3.md). 
+Experiments:
+* [Experiement 1](experiments/experiment_1.md). Prediction of  
+* [Experiement 2](experiments/experiment_2.md). 
+* [Experiement 3](experiments/experiment_3.md). 
 
 ## References
 1. [Short-Term Forecasting of Financial Time Series with Deep Neural Networks](http://www.bdigital.unal.edu.co/54538/1/1014262698.pdf)
