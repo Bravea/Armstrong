@@ -43,14 +43,13 @@ Cha S-M. & Chan L., 2000.
 1. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf)
 1. [Forecasting the Equity Risk Premium: The Role of Technical Indicators](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4062&context=lkcsb_research) Neely, Christopher J.; Rapach, David E.; TU, Jun; and Zhou, Guofu. (2014). Management Science. 60, (7), 1772-1791. Research Collection Lee Kong Chian School Of Business.
 1. [A Study on Technical Indicators in Stock Price Movement Prediction Using Decision Tree Algorithms](http://www.ajer.org/papers/v5(12)/Z05120207212.pdf)
-1. [Machine Learning for Technical Stock Analysis] (https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2012/rapporter12/cedervall_fredrik_12088.pdf)
-1. Van den Poel, D., Chesterman, C., Koppen M., Ballings, M. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf) 
-1. [](https://web.wpi.edu/Pubs/E-project/Available/E-project-042816-130221/unrestricted/MQP_-_Final_Draft.pdf)
-1. []()
+1. [Machine Learning for Technical Stock Analysis](https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2012/rapporter12/cedervall_fredrik_12088.pdf)
+1. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf) Van den Poel, D., Chesterman, C., Koppen M., Ballings, M.
+1. [MQP...](https://web.wpi.edu/Pubs/E-project/Available/E-project-042816-130221/unrestricted/MQP_-_Final_Draft.pdf)
 1. [Using Artificial Neural Networks and Sentiment Analysis to Predict Upward
 Movements in Stock Price](https://www.datacamp.com/community/tutorials/finance-python-trading)
+1. [Stock Prediction – A Neural Network Approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf) Karl Nygren 2004
 
-1. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf)
 #€ Other links
 
 1, [MEASURING HISTORICAL VOLATILITY](https://dynamiproject.files.wordpress.com/2016/01/measuring_historic_volatility.pdf)
