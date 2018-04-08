@@ -50,4 +50,7 @@ Cha S-M. & Chan L., 2000.
 1. [Using Artificial Neural Networks and Sentiment Analysis to Predict Upward
 Movements in Stock Price](https://www.datacamp.com/community/tutorials/finance-python-trading)
 
-[1] http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf
+1. [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf)
+#€ Other links
+
+1, [MEASURING HISTORICAL VOLATILITY](https://dynamiproject.files.wordpress.com/2016/01/measuring_historic_volatility.pdf)
