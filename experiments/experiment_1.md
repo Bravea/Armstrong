@@ -6,14 +6,13 @@ Experimental settings that are constant throughout the experiment:
 * Architecture: Feedforward
 
 ### Variations
-* Output: 
-  * One hot t+n [large pos, pos, no change, neg, large neg]
-  * One hot t+n [pos, no change, neg]
-* 
+* Output: One hot categorical prediction t+_n_ time steps in the future.
+  * _n_ = [1, 2, 3, 5, 8, 13, 21]
+  * categories = [[large pos, pos, no change, neg, large neg], [pos, no change, neg]]
 * nr of input nodes
 * type of technical indicators 
 * nr of layers
-* nr nodes in each layer ++
+* nr nodes in each layer
 * dropout setting
 * threshold values for output classes
 * weight initialisation
