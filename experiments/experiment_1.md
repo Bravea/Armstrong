@@ -7,8 +7,8 @@ Experimental settings that are constant throughout the experiment:
 
 ### Variations
 * Output: 
- * One hot t+n [large pos, pos, no change, neg, large neg]
- * One hot t+n [pos, no change, neg]
+  * One hot t+n [large pos, pos, no change, neg, large neg]
+  * One hot t+n [pos, no change, neg]
 * 
 * nr of input nodes
 * type of technical indicators 
