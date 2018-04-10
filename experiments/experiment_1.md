@@ -14,13 +14,15 @@ Experimental settings that are constant throughout the experiment:
 * Output: One hot categorical prediction t+_n_ time steps in the future.
   * _n_ = [1, 2, 3, 5, 8, 13, 21]
   * categories = [[large pos, pos, no change, neg, large neg], [pos, no change, neg]]  
-* # of input nodes
+* nr of input nodes
   * weekdays: Yes/No
   * On Balance Volume (OBV)
   * Simple Moving Average (SMA)
   * BIAS 
   * Psychological Line (PSY)
   * ASY 
+![Technical Indicators from table 2](https://github.com/Bravea/Armstrong/tree/master/pics/table2_technical indicators.png) 
+  
 * type of technical indicators 
 * nr of layers
 * nr nodes in each layer
