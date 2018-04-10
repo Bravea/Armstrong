@@ -5,18 +5,29 @@ Input: Technical Indicators
 ### Main
 Experimental settings that are constant throughout the experiment:  
 * Objective: Predict future return 1-10 days ahead
-* Output: One hot [large pos, pos, no change, neg, large neg]
 * Task type: Classification
 * Architecture: Feedforward
 
 ### Variations
+* Output: 
+* One hot t+1 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
+* One hot t+2 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
+* One hot t+3 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
+* One hot t+5 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
+* One hot t+8 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
+* One hot t+8 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
+* One hot t+8 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
+
+
+
 * nr of input nodes
 * type of technical indicators 
 * nr of layers
-* nr nodes in each layer 
+* nr nodes in each layer ++
 * dropout setting
 * threshold values for output classes
-* more...
+* weight initialisation
+* batch size
 
 ### Results
 #### Prediction
