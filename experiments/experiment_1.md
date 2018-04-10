@@ -21,6 +21,7 @@ Experimental settings that are constant throughout the experiment:
   * BIAS 
   * Psychological Line (PSY)
   * ASY 
+
 ![Technical Indicators from table 2](https://github.com/Bravea/Armstrong/tree/master/pics/table2_technical_indicators.png) 
   
 * type of technical indicators 
