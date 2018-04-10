@@ -1,25 +1,15 @@
 ## Experiment 1
-
-Input: Technical Indicators 
- Output: []
 ### Main
 Experimental settings that are constant throughout the experiment:  
-* Objective: Predict future return 1-10 days ahead
+* Objective: Predict future return 1, 2, 3, 5, 8, 13, 21 days ahead
 * Task type: Classification
 * Architecture: Feedforward
 
 ### Variations
 * Output: 
-* One hot t+1 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
-* One hot t+2 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
-* One hot t+3 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
-* One hot t+5 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
-* One hot t+8 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
-* One hot t+8 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
-* One hot t+8 [large pos, pos, no change, neg, large neg], [pos, no change, neg]
-
-
-
+ * One hot t+n [large pos, pos, no change, neg, large neg]
+ * One hot t+n [pos, no change, neg]
+* 
 * nr of input nodes
 * type of technical indicators 
 * nr of layers
@@ -48,3 +38,7 @@ Performance metrics are:
 Comparision Strategies:
 * Buy&Hold
 * Naive
+* Trend following
+
+
+https://github.com/Crypto-toolbox/pandas-technical-indicators/blob/master/technical_indicators.py
