@@ -27,7 +27,15 @@ Experimental settings that are constant throughout the experiment:
 * threshold values for output classes
 * weight initialisation
 * batch size
-<math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M15" overflow="scroll"><mrow><mi>A</mi><mi>S</mi><msub><mi>Y</mi><mn>4</mn></msub><mo>=</mo><mo stretchy="false">(</mo><mrow><msubsup><mo stretchy="false">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>4</mn></msubsup><mi>S</mi><msub><mi>Y</mi><mrow><mi>t</mi><mo>−</mo><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub></mrow><mo stretchy="false">)</mo><mo>/</mo><mn>4</mn></mrow></math>
+<math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M15" overflow="scroll">
+ <mrow><mi>A</mi><mi>S</mi><msub><mi>Y</mi><mn>4</mn></msub>
+  <mo>=</mo>
+  <mo stretchy="false">(</mo><mrow><msubsup>
+  <mo stretchy="false">∑</mo><mrow><mi>i</mi>
+  <mo>=</mo><mn>1</mn></mrow><mn>4</mn></msubsup><mi>S</mi><msub><mi>Y</mi><mrow><mi>t</mi>
+  <mo>−</mo><mi>i</mi>
+  <mo>+</mo><mn>1</mn></mrow></msub></mrow><mo stretchy="false">)</mo>
+  <mo>/</mo><mn>4</mn></mrow></math>
 ### Notes
 * Make sure to balance the number of outputs / category. Ideally they are equal.
 
