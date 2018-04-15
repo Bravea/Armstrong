@@ -5,7 +5,7 @@ Based on:
 * [Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873195/)
 Technical Indicators from Table 2.
 
-* [Predicting-the-Direction-of-Stock-Market-Index-Movement-Using-an-Optimized-Artificial-Neural-Network-Model.pdf] (https://github.com/Bravea/Armstrong/papers/Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model.pdf)
+* [Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model.pdf](https://github.com/Bravea/Armstrong/papers/Predicting%20the%20Direction%20of%20Stock%20Market%20Index%20Movement%20Using%20an%20Optimized%20Artificial%20Neural%20Network%20Model.pdf)
 
 ### Main
 Experimental settings that are constant throughout the experiment:  
