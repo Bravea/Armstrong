@@ -1,7 +1,7 @@
 [A hybrid stock trading framework integrating technical analysis with machine learning techniques](https://www.sciencedirect.com/science/article/pii/S2405918815300179)
 
-ANN is trained to predict a Trading Signal, i.e. when to buy an sell.
-Input to the ANN is 
+Create a Trading Signal that determines when to buy, hold and sell a stock.
+Train a ann to predict the Trading Signal.
 
 ## Trend 
 A Simple Moving Average (SMA) is used over the last 15 time steps (SMA15) for classifying the stock market movement as upward (Uptrend) or downward (downtrend) as follows:
