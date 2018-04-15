@@ -7,7 +7,7 @@
 * [Experiement 1](experiments/experiment_1.md). Prediction of  
 * [Experiement 2](experiments/experiment_2.md). 
 * [Experiment 3](experiments/experiment3.md). 
-Create a Trading Signal that determines when to buy, hold and sell a stock. Train a ann to predict the Trading Signal.
+  * Create a Trading Signal that determines when to buy, hold and sell a stock. Train a ann to predict the Trading Signal.
 
 ## References
 1. [Trend Following Algorithms for Technical Trading in Stock Market](https://pdfs.semanticscholar.org/02b1/35e37e92ff8250fb6fe4ee037ee04a68d875.pdf)
