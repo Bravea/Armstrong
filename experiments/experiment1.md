@@ -1,9 +1,11 @@
 ## Experiment 1
+* Create categories for buy, hold and sell based on change in stock price.
+ * Predict future change in stock price n days ahead.
 Based on:
 * [Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873195/)
 Technical Indicators from Table 2.
 
-* [Predicting-the-Direction-of-Stock-Market-Index-Movement-Using-an-Optimized-Artificial-Neural-Network-Model.pdf] (https://github.com/Bravea/Armstrong/papers/Predicting-the-Direction-of-Stock-Market-Index-Movement-Using-an-Optimized-Artificial-Neural-Network-Model.pdf)
+* [Predicting-the-Direction-of-Stock-Market-Index-Movement-Using-an-Optimized-Artificial-Neural-Network-Model.pdf] (https://github.com/Bravea/Armstrong/papers/Predicting the Direction of Stock Market Index Movement Using an Optimized Artificial Neural Network Model.pdf)
 
 ### Main
 Experimental settings that are constant throughout the experiment:  
