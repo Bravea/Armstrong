@@ -4,8 +4,8 @@
 – Nils Bohr
 
 ## Experiments:
-* [Experiement 1](experiments/experiment_1.md). Prediction of  
-* [Experiement 2](experiments/experiment_2.md). 
+* [Experiment 1](experiments/experiment1.md). Prediction of  
+* [Experiment 2](experiments/experiment2.md). 
 * [Experiment 3](experiments/experiment3.md). 
   * Create a Trading Signal that determines when to buy, hold and sell a stock. Train a ann to predict the Trading Signal.
 
