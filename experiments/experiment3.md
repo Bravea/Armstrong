@@ -45,6 +45,21 @@ Where:
 2060.31|2026.14|2060.31|1|0.5|no|1
 2059.82|2026.14|2059.82|1|0.5|no|1
 
+## Neural Network
+Model:
+* input is 6 technical indicators.
+* output is one (1) node.
+* training is of type regression.
+
+## Trading decision
+Determine predicted trend (Trendpred) based on predicted trading signal (TSpred):
+* Trendpred = 'up': if TSpred > 0.5.
+* Trendpred = 'down': if TSpred <= 0.5.
+
+Determine Buy, hold or Sell according to:
+* BUY: if next day trend = 'up'
+* SELL: if next day trend = 'down'
+* HOLD: if BUY or SELL decisiom exist
 
 ```python
 ```
@@ -104,22 +119,6 @@ where:
 * L(i) is the lowest price of the last i days.
 * H(i) is the highest price of the last i days.
 
-## Neural Network
-
-Model:
-* input i 6 technical indicators.
-* output is one (1) node.
-* training is of type regression.
-
-## Trading decision
-Determine predicted trend (Trendpred) based on predicted trading signal (TSpred):
-* Trendpred = 'up': if TSpred > 0.5.
-* Trendpred = 'down': if TSpred <= 0.5.
-
-Dtermine Buy, hold or Sell according to:
-* BUY: if next day trend = 'up'
-* SELL: if next day trend = 'down'
-* HOLD: if BUY or SELL decisiom exist
 
 
 
