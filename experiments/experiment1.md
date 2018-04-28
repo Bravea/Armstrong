@@ -13,6 +13,40 @@ Experimental settings that are constant throughout the experiment:
 * Task type: Classification.
 * Architecture: Feedforward.
 
+### Variation 1
+* Input data: 3 stocks. E.g. [GOOG, IBM, AAPL]
+* Output: One hot categorical prediction with threshold t+_n_ time steps in the future.
+  * _n_ = [1, 2, 3, 5, 8, 13, 21]
+  * Threshold [up_thr, down_thr]
+
+#### Trading logic
+  If Output > up_thr: BUY
+  Elif Output < down_thr: SELL
+  Else HOLD
+  
+### Variation 1
+* Input data: 3 stocks. E.g. [GOOG, IBM, AAPL]
+* Output: 3 output nodes. [[BUY(t+1), HOLD(t+1), SELL(t+1)], [BUY(t+2), HOLD(t+2), SELL(t+2)], ...,[BUY(t+_n_), HOLD(t+_n_), SELL(t+_n_)]]
+  * _n_ = [1, 2, 3, 5, 8, 13, 21]
+  * Threshold [up_thr, down_thr]
+
+#### Trading logic
+  If Output > up_thr: BUY
+  Elif Output < down_thr: SELL
+  Else HOLD
+
+
+
+  * categories = [[large pos, pos, no change, neg, large neg], [pos, no change, neg]]  
+* nr of input nodes
+  * weekdays: Yes/No
+  * On Balance Volume (OBV)
+  * Simple Moving Average (SMA)
+  * BIAS 
+  * Psychological Line (PSY)
+  * ASY 
+
+
 ### Variations
 * Input data: 3 stocks. [GOOG, IBM, AAPL]
 * Output: One hot categorical prediction t+_n_ time steps in the future.
