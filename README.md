@@ -49,7 +49,8 @@ Cha S-M. & Chan L., 2000.
 1. [Equity Price Direction Prediction For Day Trading](http://www.bigdata.ugent.be/Working_Paper_Equity_Price_Direction_Prediction_For_Day_Trading_Ensemble_Classification_Using_Technical_Analysis_Indicators_With_Interaction_Effects.pdf) Van den Poel, D., Chesterman, C., Koppen M., Ballings, M.
 1. [Using Artificial Neural Networks and Sentiment Analysis to Predict Upward Movements in Stock Price](https://web.wpi.edu/Pubs/E-project/Available/E-project-042816-130221/unrestricted/MQP_-_Final_Draft.pdf)
 1. [Python For Finance: Algorithmic Trading](https://www.datacamp.com/community/tutorials/finance-python-trading) Web page
-1. [Stock Prediction – A Neural Network Approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf) Karl Nygren 2004
+1. [Stock Prediction – A Neural Network Approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.7011&rep=rep1&type=pdf) Karl Nygren 20041. 
+1. [Stock Market Prediction Performance of Neural Networks: A Literature Review](http://www.ccsenet.org/journal/index.php/ijef/article/viewFile/70421/38874) Özgür İcan & Taha Buğra Çelik 2017
 
 #€ Other links
 
