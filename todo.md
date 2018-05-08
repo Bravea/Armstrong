@@ -16,7 +16,8 @@ Create artificial close price data:
 
 ### Strategies
 Develop the following default comparison strategies:
-* Random: buy, sell and hold
+* Random: BUY, SELL and HOLD
 * Naive: 
-if close price at time _t_ > close price at time _t-1_ then buy.
-if close price at time _t_ > close price at time _t-1_ then buy.
+  * if close price at time _t_ > close price at time _t-1_ then BUY.
+  * elif close price at time _t_ < close price at time _t-1_ then SELL.
+  * else HOLD 
