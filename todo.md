@@ -26,3 +26,18 @@ Develop the following default comparison strategies:
 
 ### Trading Strategies
 
+* TS1
+* TS2
+* TS3
+* TSn
+
+### Metrics
+Present the following metrics for each comparison and trading strategy:
+
+* Calmar Ratio
+* Sharpe Ratio
+* Total Return, 
+* Average Return, 
+* Annualized Returns,
+* Maximum Draw Down.
+
