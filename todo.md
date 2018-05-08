@@ -14,7 +14,7 @@ Create artificial close price data:
 * Sinus, up trend
 * Sinus, down trend
 
-### Strategies
+### Comparison Strategies
 Develop the following default comparison strategies:
 * Random: 
   * at each time step _t_ randomly BUY, SELL or HOLD.
@@ -23,4 +23,6 @@ Develop the following default comparison strategies:
   * elif close price at time _t_ < close price at time _t-1_ then SELL.
   * else HOLD.
 * Buy&Hold
+
+### Trading Strategies
 
