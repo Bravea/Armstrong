@@ -1,4 +1,4 @@
-## TODO
+# TODO
 
 Backtrader
 
@@ -40,4 +40,20 @@ Present the following metrics for each comparison and trading strategy:
 * Average Return, 
 * Annualized Returns,
 * Maximum Draw Down.
+
+## TO BE ABLE TO RUN ML-ALGO
+### Comparison with expert recommendations
+Avanza, Nordnet, Google Finance, Bloomberg etc. all give buy/sell advice about future investments.
+# Get and save recommendation data from different sites
+# Use saved data as input to ML-algo in order to determine if and to what extent the recommendations are good. 
+
+
+
+### Input data 
+Saved data to be used as input data for ML algo.
+* save indicators and all other input data (i.e. stock data feed(s), forex, oil, etc.) to one single csv-file.
+
+### Input data 
+
+
 
