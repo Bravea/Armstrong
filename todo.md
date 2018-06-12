@@ -13,9 +13,9 @@ Get/create input data from stocks in CSV format, between dates from 20YY-MM-DD t
 * ...
 
 Create artificial close price data: 
-* Sinus, no trend
-* Sinus, up trend
-* Sinus, down trend
+* Sinus + no trend
+* Sinus + up trend
+* Sinus + down trend
 
 ### Comparison Strategies
 Develop the following default comparison strategies:
