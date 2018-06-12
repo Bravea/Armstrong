@@ -3,6 +3,7 @@
 Backtrader
 # ERIK 
 * Add multiple stocks
+* Easily compare/view the different strategy result
 
 ### Data
 Get/create input data from stocks in CSV format, between dates from 20YY-MM-DD to 2018-MM-DD:
@@ -46,8 +47,8 @@ Present the following metrics for each comparison and trading strategy:
 ## TO BE ABLE TO RUN ML-ALGO
 ### Comparison with expert recommendations
 Avanza, Nordnet, Google Finance, Bloomberg etc. all give buy/sell advice about future investments.
-# Get and save recommendation data from different sites
-# Use saved data as input to ML-algo in order to determine if and to what extent the recommendations are good. 
+### Get and save recommendation data from different sites
+### Use saved data as input to ML-algo in order to determine if and to what extent the recommendations are good. 
 
 
 
