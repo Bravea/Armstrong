@@ -2,8 +2,8 @@
 
 Backtrader
 # todo 
-* [] Add multiple stocks
-* [] Easily compare/view the different strategy result
+* [ ] Add multiple stocks
+* [ ] Easily compare/view the different strategy result
 
 ### Data
 Get/create input data from stocks in CSV format, between dates from 20YY-MM-DD to 2018-MM-DD:
