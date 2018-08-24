@@ -1,6 +1,8 @@
 
 # Metrics
-### Net Profit
+How to select relevant metrics in order to compare different strategies?
+
+ Net Profit
 Total profit that strategy generated through backtest during the whole time. 
 - Does not consider draw down
 - Does not allow relevant comparison between systems backtested over different periods of time. Annual Net Profit allows for comparison.
@@ -13,4 +15,5 @@ Number of winning trades.
 
 
 ## Links
+* https://diplomovka.sme.sk/zdroj/3633.pdf
 * https://ntguardian.wordpress.com/2017/06/19/walk-forward-analysis-demonstration-backtrader/
