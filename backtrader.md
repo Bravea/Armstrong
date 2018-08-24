@@ -2,13 +2,12 @@
 # Metrics
 How to select relevant metrics in order to compare different strategies?
 According to [DESIGN AND IMPLEMENTATION OF AUTOMATED TRADING SYSTEMS](https://diplomovka.sme.sk/zdroj/3633.pdf) Michal Kecera, 2010.
-The following metrics are ___not useful___ for the purpose of comparing and evaluating different strategies:
-* __Net Profit__. Total profit that strategy generated through backtest during the whole time. Does not consider draw down and does not allow relevant comparison between systems backtested over different periods of time. Annual Net Profit allows for comparison. Dependent on investment capital.
+The following metrics are ___useful___ for the purpose of comparing and evaluating different strategies:
+* __Modified Recovery factor __. (Annualized Net Profit($) - Annual Required Profit($)) / Maximum Drawdown($)
+* __Modified Compounded Annual Return/Maximum Drawdown__ = (Compounded Annual Return - Annual Required Return) / Maximum Drawdown(%)
+Compounded Annual Return = ((Initial Equity/Final Equity)^(1/# of years))-1
 
-### % of Winning Trades 
-Number of winning trades. 
-- Very deceptive. Buy at random and wait for the first profit to sell. The system will have 100% winning trades but massive draw downs.
-- More or less useless since the profit and loss is not considered.
+
 
 
 ## Links
