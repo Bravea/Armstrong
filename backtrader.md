@@ -1,9 +1,9 @@
 
 # Metrics
 How to select relevant metrics in order to compare different strategies?
-According to: [DESIGN AND IMPLEMENTATION OF AUTOMATED TRADING SYSTEMS](https://diplomovka.sme.sk/zdroj/3633.pdf) Michal Kecera, 2010.
-The following metrics are _not useful_ for the purpose of comparing and evaluating different strategies:
-* Net Profit. Total profit that strategy generated through backtest during the whole time. Does not consider draw down and does not allow relevant comparison between systems backtested over different periods of time. Annual Net Profit allows for comparison. Dependent on investment capital.
+According to [DESIGN AND IMPLEMENTATION OF AUTOMATED TRADING SYSTEMS](https://diplomovka.sme.sk/zdroj/3633.pdf) Michal Kecera, 2010.
+The following metrics are ___not useful___ for the purpose of comparing and evaluating different strategies:
+* __Net Profit__. Total profit that strategy generated through backtest during the whole time. Does not consider draw down and does not allow relevant comparison between systems backtested over different periods of time. Annual Net Profit allows for comparison. Dependent on investment capital.
 
 ### % of Winning Trades 
 Number of winning trades. 
