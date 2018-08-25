@@ -2,7 +2,8 @@
 # Metrics
 How to select relevant metrics in order to compare different strategies?
 
-|Metric | Description | +/- | Bemchmark |
+|Metric| Description | +/- | Bemchmark |
+|------|-------------|-----|-----------|
 |__Net Profit__ | Ending Capital-Initial Capital | + | ? |
 |||||
 
