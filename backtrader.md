@@ -1,13 +1,10 @@
 
 # Metrics
 How to select relevant metrics in order to compare different strategies?
-According to [DESIGN AND IMPLEMENTATION OF AUTOMATED TRADING SYSTEMS](https://diplomovka.sme.sk/zdroj/3633.pdf) Michal Kecera, 2010.
-The following metrics are ___useful___ for the purpose of comparing and evaluating different strategies:
 
-* __Modified Recovery factor__ = (Annualized Net Profit($) - Annual Required Profit($)) / Maximum Drawdown($)
-* __Modified Compounded Annual Return/Maximum Drawdown__ = (Compounded Annual Return - Annual Required Return) / Maximum Drawdown(%)
-
-Compounded Annual Return = ((Initial Equity/Final Equity)^(1/# of years))-1
+|Metric | Description | +/- | Bemchmark |
+|__Net Profit__ | Ending Capital-Initial Capital | + | ? |
+|||||
 
 * __Net Profit__. Ending Capital-Initial Capital
 
@@ -47,9 +44,9 @@ Compounded Annual Return = ((Initial Equity/Final Equity)^(1/# of years))-1
 
 * __Maximum system drawdown__. The largest peak to valley decline experienced in portfolio equity. The lower the better.
 
-Maximum system % drawdown__. The largest peak to valley percentage decline experienced in portfolio equity. The lower the better.
+* __Maximum system % drawdown__. The largest peak to valley percentage decline experienced in portfolio equity. The lower the better.
 
-Recovery Factor__.  The ratio of net Profit and maximum system drawdown. Higher the better.For Ex: If net Profit=100000, maximum system drwadoen=50000, the Recovery Factor=100000/50000=2
+* __Recovery Factor__.  The ratio of net Profit and maximum system drawdown. Higher the better.For Ex: If net Profit=100000, maximum system drwadoen=50000, the Recovery Factor=100000/50000=2
 
 * __CAR/MaxDD__. Compound Annual % Return divided by Maximum system % drawdown. Good if bigger than 2. For Ex: If Annual Return %=30, and Maximum system % drawdown=10, then CAR/MaxDD=30/10=3
 
@@ -63,8 +60,6 @@ Recovery Factor__.  The ratio of net Profit and maximum system drawdown. Higher 
 
 * __Risk-Reward Ratio__. Ratio of potential risk and potential reward of Trading system. Higher is better. Calculated as the slope of equity line (expected annual return) divided by its standard error.
 
-* __Risk Reward Ratio: An ultimate tool for Success in Stock Market
-
 * __Ulcer Index__. A technical indicator that measures downside risk, in terms of both depth and duration of price declines. The Ulcer Index (UI) increases in value as the price moves farther away from a recent high, and falls as the price rises to new highs. Mathematically its is the Square root of sum of squared drawdowns divided by number of bars. Lower the value of Ulcer Index, better is your trading system. Find detailed calculation example for ulcer index [here](http://www.tangotools.com/ui/ui.htm).
 
 * __Sharpe Ratio of trades__. Measure of risk adjusted return of investment. Above 1.0 is good, more than 2.0 is very good.
@@ -72,6 +67,13 @@ Recovery Factor__.  The ratio of net Profit and maximum system drawdown. Higher 
 * __K-Ratio__. Detects inconsistency in returns. Should be 1.0 or more. The higher K ratio is the more consistent return you may expect from the system.
 
 List taken from [Understanding Amibroker backtest report](http://tradingtuitions.com/understanding-amibroker-backtest-report/)
+According to [DESIGN AND IMPLEMENTATION OF AUTOMATED TRADING SYSTEMS](https://diplomovka.sme.sk/zdroj/3633.pdf) Michal Kecera, 2010.
+The following metrics are ___useful___ for the purpose of comparing and evaluating different strategies:
+
+* __Modified Recovery factor__ = (Annualized Net Profit($) - Annual Required Profit($)) / Maximum Drawdown($)
+* __Modified Compounded Annual Return/Maximum Drawdown__ = (Compounded Annual Return - Annual Required Return) / Maximum Drawdown(%)
+
+Compounded Annual Return = ((Initial Equity/Final Equity)^(1/# of years))-1
 
 
 ## Links
