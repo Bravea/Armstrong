@@ -35,10 +35,6 @@ The metric or combination of metrics should optimize the following parameters:
 |__Net Profit__ | Ending Capital-Initial Capital |  | + | ? |
 |  __Net Profit %__ | Net Profit expressed in % terms. For ex: if Initial Capital=100000, Ending Capital=200000, then, Net Profit %=(200000-100000)/100000 * 100 = 100%. | | | |
 |__Profit Factor__ | gross profits / gross losses. E.g. Gross profit of $40,000 and gross losses $20,000. Profit Factor is 2. |  | + | ? |
-
-. That's it in a nutshell, but sometimes the simplest things hold the most value. So let's imagine your trading system's gross profit for the past year was $40,000 and your gross losses were $20,000. Your Profit Factor would be 2.
-
-
 |  __Exposure %__.   | It is the net average exposure of your trading system for the period of backtesting. It is calculated as the sum of individual bar exposures divided by total number of bars. Individual bar exposure is calculated as the ratio of open positions value to the overall portfolio equity for that particular bar. Let’s suppose you are backtesting your strategy on daily timeframe, if at the end of Day 1 your open position value is 10000 and portfolio equity is 100000 then bar exposure for that particular day is 10.  | | | |
 |  __Net Risk Adjusted Return %__. | It is the ratio of Net Profit % and Exposure %. For ex: If net profit %=100 and Exposure %=10, then Net Risk Adjusted Return %=100/0.1=1000  | | | |
 |  __Annual Return %__.  |  It is the compounded annual return %. It is the annualized rate at which capital has compounded over the backtest period.  | | | |
