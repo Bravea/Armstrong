@@ -7,11 +7,11 @@ How to select relevant metrics in order to compare different strategies?
 |__Net Profit__ | Ending Capital-Initial Capital |  | + | ? |
 |  __Net Profit %__ | Net Profit expressed in % terms. For ex: if Initial Capital=100000, Ending Capital=200000, then, Net Profit %=(200000-100000)/100000 * 100 = 100%. | | | |
 |  __Exposure %__.   | It is the net average exposure of your trading system for the period of backtesting. It is calculated as the sum of individual bar exposures divided by total number of bars. Individual bar exposure is calculated as the ratio of open positions value to the overall portfolio equity for that particular bar. Let’s suppose you are backtesting your strategy on daily timeframe, if at the end of Day 1 your open position value is 10000 and portfolio equity is 100000 then bar exposure for that particular day is 10.  | | | |
-|  __Net Risk Adjusted Return %__. It is the ratio of Net Profit % and Exposure %. For ex: If net profit %=100 and Exposure %=10, then Net Risk Adjusted Return %=100/0.1=1000  | | | |
+|  __Net Risk Adjusted Return %__. | It is the ratio of Net Profit % and Exposure %. For ex: If net profit %=100 and Exposure %=10, then Net Risk Adjusted Return %=100/0.1=1000  | | | |
 |  __Annual Return %__.  |  It is the compounded annual return %. It is the annualized rate at which capital has compounded over the backtest period.  | | | |
 |  __Risk Adjusted Return %__. |  It is the ratio of Annual return % and Exposure %. For ex: If Annual return %=20 and Exposure %=10, then Net Risk Adjusted Return %=20/0.1=200 | | | |
 |  __All Trades__. |  Total number of trades executed as per the backtested strategy in specified period. | | | |
-|  __Winners__. Total number of winning trades. | | | |
+|  __Winners__. |Total number of winning trades. | | | |
 |  __Losers__. |  Total Number of losing trades. | | | |
 |  __Total Transaction costs__. |  Total Transaction costs based on brokerage per trade settings. For Ex: If Total number of Trades=100, and Brokerage per Trade=50, then Total Transaction costs=100 * 50 = 5000 | | | |
 |  __Average Profit__.  | It’s the ratio of total profit and number of winners. For Ex: if total profit=200000, number of winners=50, then Average Profit=200000/50=4000  | | | |
