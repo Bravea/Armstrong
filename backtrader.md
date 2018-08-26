@@ -1,6 +1,8 @@
 
 # Metrics
-How to select relevant metrics in order to compare different strategies?
+How to select relevant metrics in order to be able a) compare different strategies and b) ?
+
+
 
 |Metric| Description | Comment | +/- | Benchmark |
 |------|-------------|---------|-----|-----------|
