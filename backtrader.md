@@ -1,7 +1,16 @@
 
-# Metrics
-How to select relevant metrics in order to be able a) compare different strategies and b) ?
+# Strategy Performance Metrics
+How to select relevant metrics in order to be able to a) determine if a strategy is good and b) compare different strategies.
+A metric that use a 
 
+The metric or combination of metrics should optimize the following parameters:
+* __Net Profit %__, higher is better. 
+
++/- are given for:
++ Metrics in percentages are better than absolutes
++ Metrics that include risk is better
++ Metrics that are insensitive to 
++ Metrics that include 
 
 
 |Metric| Description | Comment | +/- | Benchmark |
