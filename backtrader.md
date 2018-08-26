@@ -14,7 +14,7 @@ The metric or combination of metrics should optimize the following parameters:
 
 
 |Metric| Description | Comment | +/- | Benchmark |
-|------|-------------|---------|-----|-----------|
+|------|-------------|--------------|----|-----------|
 |__Net Profit__ | Ending Capital-Initial Capital |  | + | ? |
 |  __Net Profit %__ | Net Profit expressed in % terms. For ex: if Initial Capital=100000, Ending Capital=200000, then, Net Profit %=(200000-100000)/100000 * 100 = 100%. | | | |
 |  __Exposure %__.   | It is the net average exposure of your trading system for the period of backtesting. It is calculated as the sum of individual bar exposures divided by total number of bars. Individual bar exposure is calculated as the ratio of open positions value to the overall portfolio equity for that particular bar. Let’s suppose you are backtesting your strategy on daily timeframe, if at the end of Day 1 your open position value is 10000 and portfolio equity is 100000 then bar exposure for that particular day is 10.  | | | |
@@ -42,8 +42,8 @@ The metric or combination of metrics should optimize the following parameters:
 |  __Payoff Ratio__.  | Ratio of Average profit and Average loss. Higher the better. For ex: if Average Profit=10000, Average loss=4000, then Payoff Ratio=10000/4000=2.5 | | | |
 | __Standard Error__.  | Standard error measures choppiness of equity curve. The lower the better. | | | |
 |  __Risk-Reward Ratio__.  | Ratio of potential risk and potential reward of Trading system. Higher is better. Calculated as the slope of equity line (expected annual return) divided by its standard error. | | | |
-| __Ulcer Index__.  | A technical indicator that measures downside risk, in terms of both depth and duration of price declines. The Ulcer Index (UI) increases in value as the price moves farther away from a recent high, and falls as the price rises to new highs. Detailed calculation example for UI [here](http://www.tangotools.com/ui/ui.htm). |  UI tries to improve on __Standard Deviation__ as a measure of risk by only considering the volatility of an asset in the downward direction | | |
-|  __Sharpe Ratio of trades__.  | Measure of risk adjusted return of investment. Above 1.0 is good, more than 2.0 is very good. | | | |
+| __Ulcer Index__.  | A technical indicator that measures downside risk, in terms of both depth and duration of price declines. The Ulcer Index (UI) increases in value as the price moves farther away from a recent high, and falls as the price rises to new highs. Detailed calculation example for UI [here](http://www.tangotools.com/ui/ui.htm). |  UI tries to improve on __Standard Deviation__ as a measure of risk by only considering the volatility of an asset in the downward direction | ++ | Lower is better, e.g. < 10% |
+|  __Sharpe Ratio of trades__.  | Measure of risk adjusted return of investment. |  | + | Higher is better. Above 1.0 is good, more than 2.0 is very good.|
 |  __K-Ratio__.  | Detects inconsistency in returns. Should be 1.0 or more. The higher K ratio is the more consistent return you may expect from the system. | | | |
 
 
