@@ -5,13 +5,9 @@ How to select relevant metrics in order to compare different strategies?
 |Metric| Description | Comment | +/- | Benchmark |
 |------|-------------|---------|-----|-----------|
 |__Net Profit__ | Ending Capital-Initial Capital |  | + | ? |
-|||||
+|  __Net Profit %__ | Net Profit expressed in % terms. For ex: if Initial Capital=100000, Ending Capital=200000, then, Net Profit %=(200000-100000)/100000 * 100 = 100%. | | | |
 
-|__Net Profit__ | Ending Capital-Initial Capital
-
- |  __Net Profit %__ | Net Profit expressed in % terms. For ex: if Initial Capital=100000, Ending Capital=200000, then, Net Profit %=(200000-100000)/100000 * 100 = 100%. | | | |
-
- |  __Exposure %__.   | It is the net average exposure of your trading system for the period of backtesting. It is calculated as the sum of individual bar exposures divided by total number of bars. Individual bar exposure is calculated as the ratio of open positions value to the overall portfolio equity for that particular bar. Let’s suppose you are backtesting your strategy on daily timeframe, if at the end of Day 1 your open position value is 10000 and portfolio equity is 100000 then bar exposure for that particular day is 10.
+ |  __Exposure %__.   | It is the net average exposure of your trading system for the period of backtesting. It is calculated as the sum of individual bar exposures divided by total number of bars. Individual bar exposure is calculated as the ratio of open positions value to the overall portfolio equity for that particular bar. Let’s suppose you are backtesting your strategy on daily timeframe, if at the end of Day 1 your open position value is 10000 and portfolio equity is 100000 then bar exposure for that particular day is 10.  | | | |
 
  |  __Net Risk Adjusted Return %__. It is the ratio of Net Profit % and Exposure %. For ex: If net profit %=100 and Exposure %=10, then Net Risk Adjusted Return %=100/0.1=1000
 
