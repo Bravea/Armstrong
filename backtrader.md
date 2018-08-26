@@ -2,9 +2,23 @@
 # Strategy Performance Metrics
 How to select relevant metrics in order to be able to a) determine if a strategy is good and b) compare different strategies.
 
+Measuring performance only in profit percentages is likely to be misleading. It doesn't take into account the size and the duration of drawdowns and variability. I.e. Two strategies can have identical Annual ROI but differ in drawdown and variability. 
+
+Ideally, a strategy :
+
+* should give as high profit as possible.
+* should have as low drawdown as possible.
+* should have as low variability as possible, at least downwards variability. Volatility is a measure of the standard deviation (square root of the variance) over a certain time interval.
+
+
+However at a steady rate (low risk) with minimum of drawdown
+Target Ideal
+
+
 The metric or combination of metrics should optimize the following parameters:
 * __Profit__
 * __Risk__
+* __Drawdown__
 
 * __Net Profit %__, higher is better.
 * __Risk
@@ -63,3 +77,5 @@ Compounded Annual Return = ((Initial Equity/Final Equity)^(1/# of years))-1
 ## Links
 * https://diplomovka.sme.sk/zdroj/3633.pdf
 * https://ntguardian.wordpress.com/2017/06/19/walk-forward-analysis-demonstration-backtrader/
+* https://optimusfutures.com/tradeblog/archives/ratios-used-in-evaluating-automated-trading-systems/
+
