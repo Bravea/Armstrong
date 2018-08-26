@@ -1,10 +1,13 @@
 
 # Strategy Performance Metrics
 How to select relevant metrics in order to be able to a) determine if a strategy is good and b) compare different strategies.
-A metric that use a 
 
 The metric or combination of metrics should optimize the following parameters:
-* __Net Profit %__, higher is better. 
+* __Profit__
+* __Risk__
+
+* __Net Profit %__, higher is better.
+* __Risk
 
 +/- are given for:
 + Metrics in percentages are better than absolutes
