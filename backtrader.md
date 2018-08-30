@@ -4,16 +4,28 @@ How to select relevant metrics in order to be able to a) determine if a strategy
 
 Measuring performance only in profit percentages is likely to be misleading. It doesn't take into account the size and the duration of drawdowns and variability. I.e. Two strategies can have identical Annual ROI but differ in drawdown and variability. 
 
-Ideally, a strategy :
+Ideally, a strategy should give as:
 
-* should give as high profit as possible.
-* should have as low drawdown as possible.
-* should have as low variability as possible, at least downwards variability. Volatility is a measure of the standard deviation (square root of the variance) over a certain time interval.
+* __high profit__ as possible.
+* __low drawdown__ for as short duration as possible.
+* __low variability__ as possible, at least downwards variability. Volatility is a measure of the standard deviation (square root of the variance) over a certain time interval.
+
+All else being equal, a higher __profit %__ is better than a lower. 
 
 
-However at a steady rate (low risk) with minimum of drawdown
-Target Ideal
+All else being equal, a lower __drawdown %__ for as short period as possible is better than a higher longer. Drawdowns help determine an investment's financial risk. Both the Calmar and Sterling ratios use this metric to compare a security's possible reward to its risk.
 
+Drawdown is simply the negative half of standard deviation in relation to a stock’s share price. A drawdown from a share price’s high to its low is considered its drawdown amount. Read more: Drawdown https://www.investopedia.com/terms/d/drawdown.asp#ixzz5Pg8wp3hD 
+
+
+## Profit ##
+Profit 
+
+## Drawdown ##
+
+## Variability ## 
+
+* __Net Profit %__, higher is better.
 
 The metric or combination of metrics should optimize the following parameters:
 * __Profit__
