@@ -1,3 +1,14 @@
+# Development process
+1) Selecting the model. Confirming it with price data
+2) Developing the trade algorithm
+3) Developing the filter algorithm
+4) Parameter adaption („optimizing“)
+5) Test
+6) Reality check
+7) Implementing risk and money management
+
+
+
 
 # Strategy Performance Metrics
 How to select relevant metrics in order to be able to a) determine if a strategy is good and b) compare different strategies.
