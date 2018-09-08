@@ -1,5 +1,11 @@
 # Development process
-1) Selecting the model. Confirming it with price data
+
+## 1) Selecting the model. Confirming it with price data 
+The three prerequisites for a financial model:
+1) Has a rational basis in market structure / trader behavior
+2) Can be expressed in a program flow or formula
+3) Has statistical significance in real price curves
+
 2) Developing the trade algorithm
 3) Developing the filter algorithm
 4) Parameter adaption („optimizing“)
