@@ -19,11 +19,30 @@ Example: Cycle strategy
 * Enter long at a sine valley.
 * Exit on reversal or after a half-period.
 
-3) Developing the filter algorithm
-4) Parameter adaption („optimizing“)
-5) Test
-6) Reality check
-7) Implementing risk and money management
+## 3) Developing the filter algorithm
+A market inefficiency normally does not exist all the time.
+Therefore, we need a filter for determining if the inefficiency is
+present or not. In most cases the filter is more important than the
+algorithm.
+Example: Cycle strategy
+* Measure the amplitude of the dominant cycle.
+* Trade only when the amplitude is above a threshold.
+
+## 4) Parameter adaption ("optimizing" / "training")
+If the model has "free parameters":
+* Find out how the strategy reacts on parameter changes.
+* Find the most robust parameter range („sweet spot“).
+* Adapt the strategy to different assets.
+* Adapt it to different market situations (even while live trading).
+Bad ideas:
+- Optimizing too many parameters.
+- Optimizing for peaks (= brute force or genetic optimization).
+
+## 5) Test
+
+## 6) Reality check
+
+## 7) Implementing risk and money management
 
 
 
