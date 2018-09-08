@@ -39,6 +39,23 @@ Bad ideas:
 - Optimizing for peaks (= brute force or genetic optimization).
 
 ## 5) Test
+* Test should cover all significant market periods (5-10 years).
+* Any parameter adaption introduce bias to the test result.
+* The bias renders backtests completely useless.
+* The solution: Testing the system with data not used for the adaption - Walk-Forward Analysis.
+
+Walk-Forward Analysis
+* Roll a window over the simulation period
+* Separate the window in a training and test section.
+* Good: The test is out-of-sample and still covers most of the data.
+* Bad: The system depends on two more parameters.
+
+Main performance parameters:
+* Wins divided by losses (Profit Factor)
+* Annual profit in relation to drawdown (Calmar ratio)
+(Drawdown must be normalized -> square root rule!)
+* Annual return in relation to sigma (Sharpe ratio)
+* Linearity of returns (R2 coefficient)
 
 ## 6) Reality check
 
