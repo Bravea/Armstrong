@@ -1,12 +1,24 @@
 # Development process
-
+From the financial-hacker.com
 ## 1) Selecting the model. Confirming it with price data 
 The three prerequisites for a financial model:
 1) Has a rational basis in market structure / trader behavior
 2) Can be expressed in a program flow or formula
 3) Has statistical significance in real price curves
 
-2) Developing the trade algorithm
+Find an algorithm that detects the inefficiency in price curves.
+* Do a statistic. Plot a histogram.
+* Compare with random walk curves or shuffled price curves. Difference should be significant.
+* Do NOT rely on other people‘s research! Scam is ubiquitous (-> "Elliott Waves", Rich Swannell)
+
+## 2) Developing the trade algorithm
+Example: Cycle strategy
+* Detect the dominant cycle and phase.
+* Generate a forerunning sine curve.
+* Enter short at a sine peak.
+* Enter long at a sine valley.
+* Exit on reversal or after a half-period.
+
 3) Developing the filter algorithm
 4) Parameter adaption („optimizing“)
 5) Test
