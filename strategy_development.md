@@ -73,21 +73,32 @@ Main performance parameters:
 
 # Performance metrics for strategy comparison
 
+
+
 | __Metric__ | __Example__| __Description__ |
 |--------------------|---------------|------------------------|
 | Annual return (AR) |||
-| Profit factor (PF) | 1 | The sum of all profits divided by the sum of all losses. A neutral strategy has a vaule of 1. A loosing strategy is < 1. Profitable strategies are usually between 1.1 and 1.8. |
-| Sharpe ratio (SR) |||
-| Kelly criterion (KC) |||
-| R2 coefficient (R2) |||
-| Ulcer index (UI) |||
-||||
-||||
+| Profit Factor (PF) | | The sum of all profits divided by the sum of all losses. A neutral strategy has a value of 1. A loosing strategy is < 1. Profitable strategies are usually between 1.1 and 1.8. 
 
+Profit Factor: Gross profit divided by the absolute value of gross loss. Profit factors of 1.5 or
+more suggest a strong system. A trading system or method with a low profit factor could
+become unprofitable with just a slight change in market dynamics
+|
+| Sharpe ratio (SR) || Reward-to-variability ratio where increased variability is equated with higher risk. The higher SR the better its returns relative to the investment risk.   |
+| R2 coefficient (R2) || Measures the linearity of the equity curve. It is compared with a line through its start and end points. An R2 of 1   |
+| Ulcer index (UI) || Average depth in drawdown in percent. A good strategy should haven an UI < 10%. |
+||||
+|Pessimistic |||
 
+[Better Sharpe ratio?](https://www.crystalbull.com/sharpe-ratio-better-with-log-returns/)
+[R-SQUARED AS AN ESTIMATION OF QUALITY OF THE STRATEGY BALANCE CURVE](https://www.mql5.com/en/articles/2358)
 
 
 | __Gross win/loss__ | 100$ / -100$ | All accumulated wins and losses at the end of the simulation period. |
 | __Average profit__ | $/year, $/month, $/day  | Yearly, monthly and daily average profit. |
 
+__Links__
+
+http://viewpdxblue.com/2017/03/01/emini-trading-analysis-win/
+http://www.adaptrade.com/MSA/MSA3UsersGuide.pdf
 
