@@ -100,5 +100,7 @@ become unprofitable with just a slight change in market dynamics
 __Links__
 
 http://viewpdxblue.com/2017/03/01/emini-trading-analysis-win/
+http://viewpdxblue.com/2015/12/03/risk-of-ruin-calculations/
+http://viewpdxblue.com/2017/05/16/make-a-monte-carlo-simulation-with-excel/
 http://www.adaptrade.com/MSA/MSA3UsersGuide.pdf
 
