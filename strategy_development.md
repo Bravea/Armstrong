@@ -31,12 +31,15 @@ Example: Cycle strategy
 ## 4) Parameter adaption ("optimizing" / "training")
 If the model has "free parameters":
 * Find out how the strategy reacts on parameter changes.
-* Find the most robust parameter range („sweet spot“).
+* Find the most robust parameter range ("sweet spot").
 * Adapt the strategy to different assets.
 * Adapt it to different market situations (even while live trading).
+
 Bad ideas:
-- Optimizing too many parameters.
-- Optimizing for peaks (= brute force or genetic optimization).
+* Optimizing too many parameters.
+* Optimizing for peaks (= brute force or genetic optimization).
+
+(https://backtest-rookies.com/2017/06/26/optimize-strategies-backtrader/)[ff]
 
 ## 5) Test
 * Test should cover all significant market periods (5-10 years).
