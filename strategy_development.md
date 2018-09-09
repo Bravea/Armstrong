@@ -73,7 +73,7 @@ Main performance parameters:
 
 # Performance metrics
 Metrics accumulated at the end of a strategy simulation.
-
+| __Metric__ | __Example__| __Description__ |
 |--------------------|---------------|------------------------|
 | __Gross win/loss__ | 100$ / -100$ | All accumulated wins at the |
 
