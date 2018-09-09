@@ -39,7 +39,8 @@ Bad ideas:
 * Optimizing too many parameters.
 * Optimizing for peaks (= brute force or genetic optimization).
 
-(https://backtest-rookies.com/2017/06/26/optimize-strategies-backtrader/)[ff]
+[Training a strategy in Zorro](http://zorro-project.com/manual/en/training.htm)
+[Optimize Strategies in Backtrader](https://backtest-rookies.com/2017/06/26/optimize-strategies-backtrader/)
 
 ## 5) Test
 * Test should cover all significant market periods (5-10 years).
@@ -68,3 +69,12 @@ Main performance parameters:
 * Use an algorithm for calculating the optimal investment per portfolio component (Kelly, OptimalF, Markowitz).
 * Re-invest only the square root of your profits.
 * Supervise your system permanently and compare live results with backtest results (-> „Cold Blood Index“).
+
+
+# Performance metrics
+Metrics accumulated at the end of a strategy simulation.
+
+|--------------------|---------------|------------------------|
+| __Gross win/loss__ | 100$ / -100$ | All accumulated wins at the |
+
+
