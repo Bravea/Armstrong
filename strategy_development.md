@@ -71,11 +71,23 @@ Main performance parameters:
 * Supervise your system permanently and compare live results with backtest results (-> „Cold Blood Index“).
 
 
-# Performance metrics
-Metrics accumulated at the end of a strategy simulation.
+# Performance metrics for strategy comparison
 
 | __Metric__ | __Example__| __Description__ |
 |--------------------|---------------|------------------------|
-| __Gross win/loss__ | 100$ / -100$ | All accumulated wins at the |
+| Annual return (AR) |||
+| Profit factor (PF) | 1 | The sum of all profits divided by the sum of all losses. A neutral strategy has a vaule of 1. A loosing strategy is < 1. Profitable strategies are usually between 1.1 and 1.8. |
+| Sharpe ratio (SR) |||
+| Kelly criterion (KC) |||
+| R2 coefficient (R2) |||
+| Ulcer index (UI) |||
+||||
+||||
+
+
+
+
+| __Gross win/loss__ | 100$ / -100$ | All accumulated wins and losses at the end of the simulation period. |
+| __Average profit__ | $/year, $/month, $/day  | Yearly, monthly and daily average profit. |
 
 
